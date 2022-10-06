@@ -1,4 +1,5 @@
-import { BugButton } from 'app/providers/ErrorBoundary';
+// Можно использовать BugButton чтобы проверить как будет вести себя страница при выбросе ошибки.
+// import { BugButton } from 'app/providers/ErrorBoundary';
 import { useTranslation } from 'react-i18next';
 
 function MainPage() {
@@ -6,7 +7,6 @@ function MainPage() {
 
     return (
         <div>
-            <BugButton />
             {t('Главная страница')}
         </div>
     );
