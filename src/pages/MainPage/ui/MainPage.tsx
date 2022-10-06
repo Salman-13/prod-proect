@@ -8,6 +8,7 @@ function MainPage() {
     return (
         <div>
             {t('Главная страница')}
+            <hr />
         </div>
     );
 }
